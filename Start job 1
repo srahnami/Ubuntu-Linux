@@ -1,4 +1,4 @@
 # start a dummyjob; can be entered through remote connection through client ssh such as PuTTY(windows) to host on virtualbox ubuntu server, ...
 # ...or directly through server shell
 sleep 2
-#sleeps for 2 seconds
+# sleeps for 2 seconds

@@ -1,0 +1,5 @@
+# trying openssh-server on WSL2 ubuntu shell
+sudo systemctl status sshd
+# returns "System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down"
+# https://askubuntu.com/questions/1339980/enable-ssh-in-wsl-system
+# sudo apt-get purge openssh-server

@@ -1,0 +1,6 @@
+#this puts bash to sleep for 12 hrs, then changes the jobSchedulingMode via Tractor command
+#this code is not “real” as I do not have access to tractor, but conceptually this waits for an estimated time and then switches task priority
+#its not the smartest, but could get the job done. if statements can be iterated upon if i understand the cause and effect better for case studies
+
+sleep 43200
+”JobSchedulingMode": "P+ACTL",

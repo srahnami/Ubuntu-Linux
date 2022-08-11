@@ -1,0 +1,2 @@
+#open/play exr sequence in rv
+rv *.exr

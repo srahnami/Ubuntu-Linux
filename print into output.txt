@@ -1,0 +1,10 @@
+#
+sudo touch output.txt
+ls -l
+#current owner should be root; change to srah
+sudo chown srah output.txt
+sudo grep --help > output.txt
+vim output.txt
+
+#what if .txt file can be created with owner as User?
+#what if file and text can be written in the same step? sudo grep —help > output.txt gives -bash error permission denied

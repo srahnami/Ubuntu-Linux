@@ -1,0 +1,4 @@
+#forcibly and recursively deletes alembic files in the cache folder
+#helpful for clearing up space after rendering tests or finals
+
+rm -rf cache/*.abc

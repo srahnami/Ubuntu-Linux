@@ -1,0 +1,3 @@
+ip a
+#user sees inet under eth0, as pc is hooked up via ethernet. remove anything after fwdslash in nnn.nnn.nnn/NN
+#take this info into ssh remote client such as PuTTY
